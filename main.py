@@ -256,7 +256,10 @@ def exercice43():
         if lettre in "aeiouyAEIOUY":
             compteur+=1
     print("Il y a",compteur,"voyelles dans cette phrase")
-    
+
+def exercice44():
+    mot=input("Entrez un mot :")
+    print(mot[::-1])   
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -347,6 +350,8 @@ def main():
         exercice42()
     elif choix == "43":
         exercice43()
+    elif choix == "44":
+        exercice44()
     else:
         print("Exercice non reconnu.")
     
