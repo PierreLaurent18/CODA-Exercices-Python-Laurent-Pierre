@@ -42,6 +42,10 @@ def exercice9():
     a = int(input("Entrez un nombre :")) 
     print("Le résultat est :", a**2)
 
+def exercice10():
+    a = int(input("Entrez un nombre :")) 
+    print("Le résultat est :", a*2)
+
 
 
 
@@ -66,6 +70,8 @@ def main():
         exercice8()
     elif choix == "9":
         exercice9()
+    elif choix == "10":
+        exercice10()
     else:
         print("Exercice non reconnu.")
     
