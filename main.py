@@ -70,6 +70,9 @@ def exercice16():
     c = int(input("Entrez un nombre :"))
     print(c*c)
 
+def exercice17():
+    prix = int(input("Entrez un nombre :"))
+    print(prix*1.1)
 
 
 
@@ -108,6 +111,8 @@ def main():
         exercice15()
     elif choix == "16":
         exercice16()
+    elif choix == "17":
+        exercice17()
     else:
         print("Exercice non reconnu.")
     
