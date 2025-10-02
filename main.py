@@ -119,6 +119,13 @@ def exercice24():
     else:
         print(chiffre2, "est plus grand")
 
+def exercice25():
+    chiffre=int(input("Quel est le premier chiffre ?"))
+    chiffre2=int(input("Quel est le deuxieme chiffre ?"))
+    if chiffre>chiffre2:
+        print("Ordre Croissant : OUI")
+    else:
+        print("Ordre decroissant : NON")
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -170,6 +177,8 @@ def main():
         exercice23()
     elif choix == "24":
         exercice24()
+    elif choix == "25":
+        exercice25()
     else:
         print("Exercice non reconnu.")
     
