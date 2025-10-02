@@ -205,6 +205,20 @@ def exercice36():
 def exercice37():
     print("  X  \n XXX \nXXXXX")
 
+def exercice38():
+    signe = (input("Entrez un signe :"))
+    if signe == "+":
+        exercice5()
+    elif signe == "-":
+        exercice6()
+    elif signe == "*":
+        exercice7()
+    else:
+        exercice8()
+
+    
+    
+
 
 
 
@@ -286,6 +300,8 @@ def main():
         exercice36()
     elif choix == "37":
         exercice37()
+    elif choix == "38":
+        exercice38()
     else:
         print("Exercice non reconnu.")
     
