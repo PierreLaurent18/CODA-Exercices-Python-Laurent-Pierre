@@ -202,6 +202,9 @@ def exercice36():
     for i in range(3):
         print("bonjour")
 
+def exercice37():
+    print("  X  \n XXX \nXXXXX")
+
 
 
 
@@ -281,6 +284,8 @@ def main():
         exercice35()
     elif choix == "36":
         exercice36()
+    elif choix == "37":
+        exercice37()
     else:
         print("Exercice non reconnu.")
     
