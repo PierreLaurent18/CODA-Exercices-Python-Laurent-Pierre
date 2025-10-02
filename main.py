@@ -62,6 +62,10 @@ def exercice14():
     for i in range(1,6):
         print("2x",i,"=",2*i)
 
+def exercice15():
+    c = int(input("Entrez un nombre :"))
+    print(c*c)
+
 
 
 
@@ -96,6 +100,8 @@ def main():
         exercice13()
     elif choix == "14":
         exercice14()
+    elif choix == "15":
+        exercice15()
     else:
         print("Exercice non reconnu.")
     
