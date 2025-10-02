@@ -82,6 +82,12 @@ def exercice19():
     prix = int(input("Entrez un nombre :"))
     print(prix*1.2)
 
+def exercice20():
+    prenom = (input("Entrez un prenom :")) 
+    age = (input("Entrez un age :")) 
+    print()
+    print(prenom, "a", age, "ans")
+
 
 
 def main():
@@ -125,6 +131,8 @@ def main():
         exercice18()
     elif choix == "19":
         exercice19()
+    elif choix == "20":
+        exercice20()
     else:
         print("Exercice non reconnu.")
     
