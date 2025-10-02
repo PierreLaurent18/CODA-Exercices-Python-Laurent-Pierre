@@ -1,3 +1,4 @@
+import random
 def exercice1():
     print("Exercice 1 : Bonjour le monde !")
     print("Hello World !")
@@ -215,6 +216,14 @@ def exercice38():
         exercice7()
     else:
         exercice8()
+
+def exercice39():
+    secret=random.randint(1,10)
+    guess=input("pair ou impair :")
+    if secret%2==0:
+        print("GG BG")
+    else:
+        print("perdu sale bot")
 
     
     
