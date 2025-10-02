@@ -227,12 +227,19 @@ def exercice39():
 
 def exercice40():
     mdp=input("quel est votre mot de passe ?")
-
     if len(mdp) < 6:
         print("Trop court")
     else:
         print("Valide")
-    
+
+def exercice41():
+    a=int(input("quel est le premier nombre ?"))
+    b=int(input("quel est le deuxieme nombre ?"))
+    c=int(input("quel est le troisieme nombre ?"))
+    d=int(input("quel est le quatrieme nombre ?"))
+    e=int(input("quel est le cinquieme nombre ?"))
+    print((a+b+c+d+e)/5)
+
 
 
 def main():
@@ -318,6 +325,8 @@ def main():
         exercice39()
     elif choix == "40":
         exercice40()
+    elif choix == "41":
+        exercice41()
     else:
         print("Exercice non reconnu.")
     
