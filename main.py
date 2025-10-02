@@ -88,6 +88,14 @@ def exercice20():
     print()
     print(prenom, "a", age, "ans")
 
+def exercice21():
+    chiffre=int(input("Quel est le chiffre ?"))
+    if chiffre==0:
+        print("nul")
+    elif chiffre>0:
+        print("positif")
+    else:
+        print("negatif")
 
 
 def main():
@@ -133,6 +141,8 @@ def main():
         exercice19()
     elif choix == "20":
         exercice20()
+    elif choix == "21":
+        exercice21()
     else:
         print("Exercice non reconnu.")
     
