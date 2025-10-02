@@ -163,6 +163,12 @@ def exercice29():
     else:
         print("Vous avez eu la mention tres bien")
 
+def exercice30():
+    n=int(input("Combien de nombre voulez vous afficher ?"))
+    for i in range(n+1):
+        print(i)
+
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -224,6 +230,8 @@ def main():
         exercice28()
     elif choix == "29":
         exercice29()
+    elif choix == "30":
+        exercice30()
     else:
         print("Exercice non reconnu.")
     
