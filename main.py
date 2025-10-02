@@ -64,6 +64,10 @@ def exercice14():
 
 def exercice15():
     c = int(input("Entrez un nombre :"))
+    print(c*4)
+
+def exercice16():
+    c = int(input("Entrez un nombre :"))
     print(c*c)
 
 
@@ -102,6 +106,8 @@ def main():
         exercice14()
     elif choix == "15":
         exercice15()
+    elif choix == "16":
+        exercice16()
     else:
         print("Exercice non reconnu.")
     
