@@ -50,6 +50,10 @@ def exercice11():
     a = float(input("Entrez un nombre :")) 
     print("Le résultat est :", a/2)
 
+def exercice12():
+    for i in range(5):
+        print("Bonjour !")
+
 
 
 
@@ -78,6 +82,8 @@ def main():
         exercice10()
     elif choix == "11":
         exercice11()
+    elif choix == "12":
+        exercice12()
     else:
         print("Exercice non reconnu.")
     
