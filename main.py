@@ -20,6 +20,13 @@ def exercice5():
     print()
     print("Le résultat est :", a + b)
 
+def exercice6():
+    a = int(input("Entrez un nombre :")) 
+    b = int(input("Entrez un nombre :")) 
+    print()
+    print("Le résultat est :", a - b)
+
+
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -34,7 +41,8 @@ def main():
         exercice4()
     elif choix == "5":
         exercice5()
-
+    elif choix == "6":
+        exercice6()
     else:
         print("Exercice non reconnu.")
     
