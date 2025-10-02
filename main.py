@@ -6,6 +6,9 @@ def exercice2():
     nom = input("Votre prénom est ?")
     print ("Votre nom est",nom)
 
+def exercice3():
+    print("Salut\nc'est un\nretour a la ligne")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -13,6 +16,8 @@ def main():
         exercice1()
     elif choix == "2":
         exercice2()
+    elif choix == "3":
+        exercice3()
     else:
         print("Exercice non reconnu.")
         
