@@ -240,7 +240,23 @@ def exercice41():
     e=int(input("quel est le cinquieme nombre ?"))
     print((a+b+c+d+e)/5)
 
+def exercice42():
+    a=int(input("quel est le premier nombre ?"))
+    b=int(input("quel est le deuxieme nombre ?"))
+    c=int(input("quel est le troisieme nombre ?"))
+    d=int(input("quel est le quatrieme nombre ?"))
+    e=int(input("quel est le cinquieme nombre ?"))
+    print(max(a,b,c,d,e))   
+    print(min(a,b,c,d,e))
 
+def exercice43():
+    phrase=input("Entrez une phrase :")
+    compteur=0
+    for lettre in phrase:
+        if lettre in "aeiouyAEIOUY":
+            compteur+=1
+    print("Il y a",compteur,"voyelles dans cette phrase")
+    
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -327,6 +343,10 @@ def main():
         exercice40()
     elif choix == "41":
         exercice41()
+    elif choix == "42":
+        exercice42()
+    elif choix == "43":
+        exercice43()
     else:
         print("Exercice non reconnu.")
     
