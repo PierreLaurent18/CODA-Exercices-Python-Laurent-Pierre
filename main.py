@@ -225,11 +225,14 @@ def exercice39():
     else:
         print("perdu sale bot")
 
+def exercice40():
+    mdp=input("quel est votre mot de passe ?")
+
+    if len(mdp) < 6:
+        print("Trop court")
+    else:
+        print("Valide")
     
-    
-
-
-
 
 
 def main():
@@ -311,6 +314,10 @@ def main():
         exercice37()
     elif choix == "38":
         exercice38()
+    elif choix == "39":
+        exercice39()
+    elif choix == "40":
+        exercice40()
     else:
         print("Exercice non reconnu.")
     
