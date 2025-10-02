@@ -151,6 +151,18 @@ def exercice28():
         print("L'eau est sous forme solide")
     else:
         print("L'eau estsous forme liquide")
+
+def exercice29():
+    note=int(input("Quel est le chiffre ?"))
+    if note<=8:
+        print("Vous etes recale")
+    elif note<=11:
+        print("Vous avez eu la mention passable")
+    elif note<=14:
+        print("Vous avez eu la mention bien")
+    else:
+        print("Vous avez eu la mention tres bien")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -210,6 +222,8 @@ def main():
         exercice27()
     elif choix == "28":
         exercice28()
+    elif choix == "29":
+        exercice29()
     else:
         print("Exercice non reconnu.")
     
