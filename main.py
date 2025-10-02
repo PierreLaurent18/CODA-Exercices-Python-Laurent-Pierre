@@ -188,8 +188,16 @@ def exercice33():
 def exercice34():
     n=int(input("quel est votre nombre ?"))
     for i in range(1,n+1):
-        if n%2==0:
+        if i%2==0:
             print(i)
+
+def exercice35():
+    n=int(input("quel est votre nombre ?"))
+    for i in range(0,n+1):
+        if i*i<20:
+            print(i*i)
+
+
 
 
 def main():
