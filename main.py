@@ -104,6 +104,13 @@ def exercice22():
     else:
         print("mineur")
 
+def exercice23():
+    chiffre=int(input("Quel est le chiffre ?"))
+    if chiffre>=10:
+        print("valide")
+    else:
+        print("non valide")
+
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -152,6 +159,8 @@ def main():
         exercice21()
     elif choix == "22":
         exercice22()
+    elif choix == "23":
+        exercice23()
     else:
         print("Exercice non reconnu.")
     
