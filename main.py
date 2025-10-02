@@ -78,6 +78,10 @@ def exercice18():
     minute = int(input("Entrez un nombre :"))
     print(minute*60)
 
+def exercice19():
+    prix = int(input("Entrez un nombre :"))
+    print(prix*1.2)
+
 
 
 def main():
@@ -119,6 +123,8 @@ def main():
         exercice17()
     elif choix == "18":
         exercice18()
+    elif choix == "19":
+        exercice19()
     else:
         print("Exercice non reconnu.")
     
