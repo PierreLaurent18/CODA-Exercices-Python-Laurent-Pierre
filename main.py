@@ -26,6 +26,13 @@ def exercice6():
     print()
     print("Le résultat est :", a - b)
 
+def exercice7():
+    a = int(input("Entrez un nombre :")) 
+    b = int(input("Entrez un nombre :")) 
+    print()
+    print("Le résultat est :", a * b)
+
+
 
 
 def main():
@@ -43,6 +50,8 @@ def main():
         exercice5()
     elif choix == "6":
         exercice6()
+    elif choix == "7":
+        exercice7()
     else:
         print("Exercice non reconnu.")
     
