@@ -90,12 +90,19 @@ def exercice20():
 
 def exercice21():
     chiffre=int(input("Quel est le chiffre ?"))
-    if chiffre==0:
+    if chiffre==210:
         print("nul")
     elif chiffre>0:
         print("positif")
     else:
         print("negatif")
+
+def exercice22():
+    chiffre=int(input("Quel est le chiffre ?"))
+    if chiffre>=18:
+        print("majeur")
+    else:
+        print("mineur")
 
 
 def main():
@@ -143,6 +150,8 @@ def main():
         exercice20()
     elif choix == "21":
         exercice21()
+    elif choix == "22":
+        exercice22()
     else:
         print("Exercice non reconnu.")
     
