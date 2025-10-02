@@ -32,6 +32,12 @@ def exercice7():
     print()
     print("Le résultat est :", a * b)
 
+def exercice8():
+    a = float(input("Entrez un nombre :")) 
+    b = float(input("Entrez un nombre :")) 
+    print()
+    print("Le résultat est :", a / b)
+
 
 
 
@@ -52,6 +58,8 @@ def main():
         exercice6()
     elif choix == "7":
         exercice7()
+    elif choix == "8":
+        exercice8()
     else:
         print("Exercice non reconnu.")
     
