@@ -126,6 +126,15 @@ def exercice25():
         print("Ordre Croissant : OUI")
     else:
         print("Ordre decroissant : NON")
+
+def exercice26():
+    chiffre=int(input("Quel est le chiffre ?"))
+    if chiffre%5==0:
+        print("Votre chiffre est divisible par 5")
+    else:
+        print("Votre chiffre n'est pas divisible par 5")
+    
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -179,6 +188,8 @@ def main():
         exercice24()
     elif choix == "25":
         exercice25()
+    elif choix == "26":
+        exercice26()
     else:
         print("Exercice non reconnu.")
     
