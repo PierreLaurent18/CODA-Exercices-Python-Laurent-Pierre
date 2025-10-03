@@ -310,6 +310,15 @@ def exercice50():
         a,b=b,a+b
     print()
 
+def exercice51():
+    lp = [1]
+    n = int(input("jusqu'à n = "))
+    for j in range(n):
+        nl = lp + [1]
+        for i in range(len(lp) - 1):
+            nl[i + 1] = lp[i] + lp[i + 1]
+        lp = nl
+    print(nl)
 
 def main():
     while True:
@@ -414,6 +423,13 @@ def main():
             exercice47()
         elif choix == "48":
             exercice48()
+        elif choix == "49":
+            exercice49()
+        elif choix == "50":
+            exercice50()
+        elif choix == "51":
+            exercice51()
+
 
         elif choix == "q":
             print("Au revoir 👋")
