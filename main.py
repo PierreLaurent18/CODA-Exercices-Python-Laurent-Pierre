@@ -290,7 +290,25 @@ def exercice48():
             diviseurs.append(i)
     print("Les diviseurs de",n,"sont :",diviseurs)
 
-    
+def exercice49():
+    n=int(input("Entrez un nombre :"))
+    if n>1:
+        for i in range(2,n):
+            if n%i==0:
+                print(n,"n'est pas un nombre premier")
+                break
+        else:
+            print(n,"est un nombre premier")
+    else:
+        print(n,"n'est pas un nombre premier")
+
+def exercice50():
+    n=int(input("Entrez un nombre :"))
+    a,b=0,1
+    while a<=n:
+        print(a,end=" ")
+        a,b=b,a+b
+    print()
 
 
 def main():
