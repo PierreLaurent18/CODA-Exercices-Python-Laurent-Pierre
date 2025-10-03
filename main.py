@@ -261,99 +261,150 @@ def exercice44():
     mot=input("Entrez un mot :")
     print(mot[::-1])   
 
-def main():
-    # Demande à l'utilisateur quel exercice exécuter
-    choix = input("Entrez le numéro de l'exercice à exécuter : ")
-    if choix == "1":
-        exercice1()
-    elif choix == "2":
-        exercice2()
-    elif choix == "3":
-        exercice3()
-    elif choix == "4":
-        exercice4()
-    elif choix == "5":
-        exercice5()
-    elif choix == "6":
-        exercice6()
-    elif choix == "7":
-        exercice7()
-    elif choix == "8":
-        exercice8()
-    elif choix == "9":
-        exercice9()
-    elif choix == "10":
-        exercice10()
-    elif choix == "11":
-        exercice11()
-    elif choix == "12":
-        exercice12()
-    elif choix == "13":
-        exercice13()
-    elif choix == "14":
-        exercice14()
-    elif choix == "15":
-        exercice15()
-    elif choix == "16":
-        exercice16()
-    elif choix == "17":
-        exercice17()
-    elif choix == "18":
-        exercice18()
-    elif choix == "19":
-        exercice19()
-    elif choix == "20":
-        exercice20()
-    elif choix == "21":
-        exercice21()
-    elif choix == "22":
-        exercice22()
-    elif choix == "23":
-        exercice23()
-    elif choix == "24":
-        exercice24()
-    elif choix == "25":
-        exercice25()
-    elif choix == "26":
-        exercice26()
-    elif choix == "27":
-        exercice27()
-    elif choix == "28":
-        exercice28()
-    elif choix == "29":
-        exercice29()
-    elif choix == "30":
-        exercice30()
-    elif choix == "31":
-        exercice31()
-    elif choix == "32":
-        exercice32()
-    elif choix == "33":
-        exercice33()
-    elif choix == "34":
-        exercice34()
-    elif choix == "35":
-        exercice35()
-    elif choix == "36":
-        exercice36()
-    elif choix == "37":
-        exercice37()
-    elif choix == "38":
-        exercice38()
-    elif choix == "39":
-        exercice39()
-    elif choix == "40":
-        exercice40()
-    elif choix == "41":
-        exercice41()
-    elif choix == "42":
-        exercice42()
-    elif choix == "43":
-        exercice43()
-    elif choix == "44":
-        exercice44()
+def exercice45():
+    liste=[1,2,3,4,5]
+    print(sum(liste))
+
+def exercice46():
+    liste=[1,2,3,4,5]
+    n=int(input("Quel nombre voulez vous chercher ?"))
+    if n in liste:
+        print("Le nombre est dans la liste")
     else:
-        print("Exercice non reconnu.")
+        print("Le nombre n'est pas dans la liste")
+
+def exercice47():
+    liste=[1,2,3,4,5,1,2,1,1]
+    n=int(input("Quel nombre voulez vous compter ?"))
+    compteur=0
+    for i in liste:
+        if i==n:
+            compteur+=1
+    print("Le nombre",n,"apparaît",compteur,"fois dans la liste")
+
+def exercice48():
+    n=int(input("Entrez un nombre :"))
+    diviseurs=[]
+    for i in range(1,n+1):
+        if n%i==0:
+            diviseurs.append(i)
+    print("Les diviseurs de",n,"sont :",diviseurs)
+
+    
+
+
+def main():
+    while True:
+        print("\n=== Menu des exercices ===")
+        print("q - Quitter")
+    
+    # Demande à l'utilisateur quel exercice exécuter
+        choix = input("Entrez le numéro de l'exercice à exécuter : ")
+        if choix == "1":
+            exercice1()
+        elif choix == "2":
+            exercice2()
+        elif choix == "3":
+            exercice3()
+        elif choix == "4":
+            exercice4()
+        elif choix == "5":
+            exercice5()
+        elif choix == "6":
+            exercice6()
+        elif choix == "7":
+            exercice7()
+        elif choix == "8":
+            exercice8()
+        elif choix == "9":
+            exercice9()
+        elif choix == "10":
+            exercice10()
+        elif choix == "11":
+            exercice11()
+        elif choix == "12":
+            exercice12()
+        elif choix == "13":
+            exercice13()
+        elif choix == "14":
+            exercice14()
+        elif choix == "15":
+            exercice15()
+        elif choix == "16":
+            exercice16()
+        elif choix == "17":
+            exercice17()
+        elif choix == "18":
+            exercice18()
+        elif choix == "19":
+            exercice19()
+        elif choix == "20":
+            exercice20()
+        elif choix == "21":
+            exercice21()
+        elif choix == "22":
+            exercice22()
+        elif choix == "23":
+            exercice23()
+        elif choix == "24":
+            exercice24()
+        elif choix == "25":
+            exercice25()
+        elif choix == "26":
+            exercice26()
+        elif choix == "27":
+            exercice27()
+        elif choix == "28":
+            exercice28()
+        elif choix == "29":
+            exercice29()
+        elif choix == "30":
+            exercice30()
+        elif choix == "31":
+            exercice31()
+        elif choix == "32":
+            exercice32()
+        elif choix == "33":
+            exercice33()
+        elif choix == "34":
+            exercice34()
+        elif choix == "35":
+            exercice35()
+        elif choix == "36":
+            exercice36()
+        elif choix == "37":
+            exercice37()
+        elif choix == "38":
+            exercice38()
+        elif choix == "39":
+            exercice39()
+        elif choix == "40":
+            exercice40()
+        elif choix == "41":
+            exercice41()
+        elif choix == "42":
+            exercice42()
+        elif choix == "43":
+            exercice43()
+        elif choix == "44":
+            exercice44()
+        elif choix == "45":
+            exercice45()
+        elif choix == "46":
+            exercice46()
+        elif choix == "47":
+            exercice47()
+        elif choix == "48":
+            exercice48()
+
+        elif choix == "q":
+            print("Au revoir 👋")
+            break
+        else:
+            print("⚠️ Choix non reconnu. Essayez encore.")
+
+        # Pause entre deux exécutions pour laisser le temps de lire
+        input("\nAppuyez sur Entrée pour revenir au menu...")
     
         
 if __name__ == "__main__":
